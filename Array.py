@@ -6,7 +6,7 @@ val=array('i',[1,2,3,4,5,6,7,8,9])
 # val=array('u',['a','b','c','d','e']) # unicode character array
 
 print(val)
-# sab kuch shi h bass koi dikkat wali baat nhi h dishita 
+
 for i in range(0,6): # index 0 included and 6 excluded
     print(val[i] )  # each element on a separate line
 
