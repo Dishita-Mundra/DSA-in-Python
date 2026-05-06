@@ -2,7 +2,7 @@
 # LinkedList hume ek option provide kar sakta h kya ki hum runtime p memory allocation kar sakte h
 # agar program chal rha hota h toh uss time if we need memory to store data so we can add in memory in runtime
 
-# y h aaam zindgi xD
+
 # linkedList = hum normally ek block allocate karate h jisko NODE bola jata h
 # then node ke do part hote h
 # 1.isme information store hoti h  [ zaruri nhi ki value store karo ek objject bhi store kar sakte h jisme ki mainly sari information hoti h ]
