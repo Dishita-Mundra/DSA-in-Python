@@ -1,6 +1,6 @@
 class Node:
     # constructor
-    # info is the data part of the node and next is the pointer to the next node
+    # info is the data part of the node and next is the pointer to the next node.
     # next is set to None by default
     # when a new node is created, the data part is set to info and the next pointer is set to next
     # if next is not provided, it will be set to None
