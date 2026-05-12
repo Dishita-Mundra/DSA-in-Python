@@ -1,7 +1,7 @@
-import array as a
+# import array as a
 
-from array import *
-val=array('i',[1,2,3,4,5,6,7,8,9])
+# from array import *
+# val=array('i',[1,2,3,4,5,6,7,8,9])
 # val=array('d',[1,2,3,4,5,6,7,8,9.5]) # double type array
 # val=array('u',['a','b','c','d','e']) # unicode character array
 
