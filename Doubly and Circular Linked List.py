@@ -18,10 +18,10 @@ class DoublyLL: # Doubly Linked List Class
         while(t.next != None): # Traverse the list until the end
             t = t.next # Move to the next node
         
-        t.next = temp # Set the next pointer of the last node to the new node
-        temp.prev =t # Set the previous pointer of the new node to the last node
+        t.next = temp # Set the next pointer of the last node to the new node.
+        temp.prev =t # Set the previous pointer of the new node to the last node.
 
-    def insertAtBeg(self , value): # Method to insert a node at the beginning of the list
+    def insertAtBeg(self , value): # Method to insert a node at the beginning of the list.
         temp=Node(value) # Create a new node with the given value
         if(self.head == None): # If the list is empty, set the new node as the head
             self.head = temp # Set the new node as the head of the list
