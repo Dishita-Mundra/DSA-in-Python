@@ -1,12 +1,12 @@
 class Node: # Node class for Doubly Linked List.
-    def __init__(self , value = None): # Constructor to initialize the node with data and pointers
-        self.data = value # Data part of the node .
-        self.next = None # Pointer to the next node .
-        self.prev = None # Pointer to the previous node
+    def __init__(self , value = None): # Constructor to initialize the node with data and pointers.
+        self.data = value # Data part of the node.
+        self.next = None # Pointer to the next node.
+        self.prev = None # Pointer to the previous node.
 
 class DoublyLL: # Doubly Linked List Class
     def __init__(self):
-        self.head = None # Initialize the head of the list to None
+        self.head = None # Initialize the head of the list to None.
 
     def insertAtEnd(self , value): # Method to insert a node at the end of the list
         temp = Node(value) # Create a new node with the given value
