@@ -1,7 +1,7 @@
 class Node: # Node class for Doubly Linked List.
     def __init__(self , value = None): # Constructor to initialize the node with data and pointers
-        self.data = value # Data part of the node
-        self.next = None # Pointer to the next node
+        self.data = value # Data part of the node .
+        self.next = None # Pointer to the next node .
         self.prev = None # Pointer to the previous node
 
 class DoublyLL: # Doubly Linked List Class
