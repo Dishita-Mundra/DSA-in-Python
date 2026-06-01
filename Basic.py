@@ -125,3 +125,12 @@ monday and tuesday """
 #     print(i,end=" ")
 # print()
 
+# def printName(name):
+#     print(name)
+# printName("Dishita")
+
+# def addTwoNumbers(a,b):
+#     sum = a+b
+#     return sum
+# ans=addTwoNumbers(3,4)
+# print(ans)
