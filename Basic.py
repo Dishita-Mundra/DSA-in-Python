@@ -72,12 +72,56 @@ monday and tuesday """
 # else:
 #     print("You are not eligible for driving license")
 
-marks=int(input("Enter your marks:"))
-if marks>=90:
-    print("Excellent")
-elif 70<=marks<90:
-    print("Good")
-elif 40<=marks<70:
-    print("Fair")
-else:
-    print("Bad")
+# marks=int(input("Enter your marks:"))
+# if marks>=90:
+#     print("Excellent")
+# elif 70<=marks<90:
+#     print("Good")
+# elif 40<=marks<70:
+#     print("Fair")
+# else:
+#     print("Bad")
+
+# temp=int(input("Enter the temperature:"))
+# if temp<=50 and temp>=25:
+#     print("Hot")
+# elif temp<25 and temp>=10:
+#     print("Cold")
+# else:
+#     print("Extremely Cold")
+
+# TERNARY OPERATOR
+
+# age=int(input("Enter your age:"))
+# result="Eligible" if age>=18 else "Not Eligible"
+# print(result)
+
+# i=0
+# while i<5:
+#     print(i,end=" ")
+#     i+=1
+
+# l1=[1,2,3,4,5]
+# for i in l1:
+#     print(i)
+
+# for i in range(1,11):
+#     print(i,end=" ")
+# print()
+
+# for i in range(5,11):
+#     print(i,end=" ")
+# print()
+
+# for i in range(1,11,2):
+#     print(i,end=" ")
+# print()
+
+# for i in range(20,0,-1):
+#     print(i,end=" ")
+# print()
+
+# for i in range(20,0,-3):
+#     print(i,end=" ")
+# print()
+
