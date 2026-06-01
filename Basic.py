@@ -48,3 +48,36 @@ monday and tuesday """
 
 # height=float(input("Height:"))
 # print("Height is",height)
+
+
+# full_name="Dishita Mundra"
+# age=19
+# address="Gurgaon"
+
+# print(full_name,end=" && ")
+# print(age)
+# print(address)
+
+# print(full_name,age,address,sep=",")
+
+
+# Q. Take input of age and on basis of age, print eligible or not eligible for driving license
+# age=int(input("Enter your age:"))
+# if age>=18:
+#     test=input("Pass/Fail:")
+#     if test=="Pass":
+#         print("You are eligible for driving license")
+#     else:
+#         print("You are not eligible for driving license")
+# else:
+#     print("You are not eligible for driving license")
+
+marks=int(input("Enter your marks:"))
+if marks>=90:
+    print("Excellent")
+elif 70<=marks<90:
+    print("Good")
+elif 40<=marks<70:
+    print("Fair")
+else:
+    print("Bad")
