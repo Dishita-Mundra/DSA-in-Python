@@ -45,3 +45,37 @@ for i in range(n):
 
 
 # Logarithmic Time (O(log n))
+
+n = 100
+while n>0:
+    print(n,end=" ")
+    n//=2
+
+
+i=1
+n=100
+while i<=n:
+    print(1,end=" ")
+    i*=2
+
+
+
+# Linearithemic Time (O(n log n))
+
+i=1
+n=100
+
+for j in range(n):
+    while i<=n:
+        print(1,end=" ")
+        i*=2
+
+
+
+n= 100
+m= 10
+  
+list1 = []
+
+for i in range(n):
+    list1.append(m)
