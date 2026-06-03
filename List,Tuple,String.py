@@ -134,11 +134,30 @@
 # name= "Dishita"
 # print(name,type(name))
 
-name="Physics wallah Skills"
+# name="Physics wallah Skills"
 
-print(name[4])
-print(name[-2])
-print(len(name))
-print(name.lower())
-print(name.upper())
-print(name.capitalize())
+# print(name[4])
+# print(name[-2])
+
+# print(len(name))
+
+# print(name.lower())
+# print(name.upper())
+# print(name.capitalize())
+
+# print(name.replace("i","y"))
+
+# print(name.count("i"))
+
+
+# s="hello"
+# print(s*3)
+
+
+s = "hello world"
+print(s.replace("hello","hi"))
+
+print(s.startswith("hello"))
+print(s.startswith("hi"))
+print(s.endswith("world"))
+print(s.endswith("hii"))
