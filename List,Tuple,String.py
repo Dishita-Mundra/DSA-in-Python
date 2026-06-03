@@ -124,3 +124,21 @@
 # t1=(3,4,456,24,312,234,456,42,23)
 # l1=list(t1)
 # print(l1)
+
+
+
+
+
+### STRING
+
+# name= "Dishita"
+# print(name,type(name))
+
+name="Physics wallah Skills"
+
+print(name[4])
+print(name[-2])
+print(len(name))
+print(name.lower())
+print(name.upper())
+print(name.capitalize())
