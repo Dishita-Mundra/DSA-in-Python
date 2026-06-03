@@ -1,3 +1,5 @@
+### LIST
+
 # names = ["dishi","swati","aarti","anu"]
 
 # print(names,type(names))
@@ -86,7 +88,7 @@
 
 
 
-# l1=[3,4,456,24,312,234,456,42,23]
+# l1 = [3,4,456,24,312,234,456,42,23]
 
 # print(l1[2:6])
 # print(l1[2:8:3])
@@ -95,3 +97,13 @@
 # print(l1[:])
 
 # print(l1[::-1])
+
+
+
+
+
+### TUPLE
+
+t1 = ("hello",123,23.232,True,324.423)
+print(t1)
+print
