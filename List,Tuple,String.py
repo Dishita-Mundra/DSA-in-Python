@@ -104,6 +104,23 @@
 
 ### TUPLE
 
-t1 = ("hello",123,23.232,True,324.423)
-print(t1)
-print
+# t1 = ("hello",123,23.232,True,324.423)
+# print(t1)
+# print(t1[3])
+# print(t1[-5])
+
+# t1=(1,2,3)
+# t2=t1
+
+# print(t1,id(t1))
+# print(t2,id(t2))
+
+# t1=(3,4,456,24,312,234,456,42,23)
+
+# print(t1[2:4])
+# print(t1.count(456))
+# print(t1.index(456))
+
+# t1=(3,4,456,24,312,234,456,42,23)
+# l1=list(t1)
+# print(l1)
