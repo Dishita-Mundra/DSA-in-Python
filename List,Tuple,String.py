@@ -109,19 +109,19 @@
 # print(t1[3])
 # print(t1[-5])
 
-# t1=(1,2,3)
-# t2=t1
+# t1 = (1,2,3)
+# t2 = t1
 
 # print(t1,id(t1))
 # print(t2,id(t2))
 
-# t1=(3,4,456,24,312,234,456,42,23)
+# t1 = (3,4,456,24,312,234,456,42,23)
 
 # print(t1[2:4])
 # print(t1.count(456))
 # print(t1.index(456))
 
-# t1=(3,4,456,24,312,234,456,42,23)
+# t1 = (3,4,456,24,312,234,456,42,23)
 # l1=list(t1)
 # print(l1)
 
@@ -131,7 +131,7 @@
 
 ### STRING
 
-# name= "Dishita"
+# name = "Dishita"
 # print(name,type(name))
 
 # name="Physics wallah Skills"
@@ -150,14 +150,69 @@
 # print(name.count("i"))
 
 
-# s="hello"
+# s = "hello"
 # print(s*3)
 
 
-s = "hello world"
-print(s.replace("hello","hi"))
+# s = "hello world"
 
-print(s.startswith("hello"))
-print(s.startswith("hi"))
-print(s.endswith("world"))
-print(s.endswith("hii"))
+# print(list(s))
+
+# print(s[2:5])
+# print(s[2:9:2])
+
+# print(s.replace("hello","hi"))
+
+# print(s.startswith("hello"))
+# print(s.startswith("hi"))
+
+# print(s.endswith("world"))
+# print(s.endswith("hii"))
+
+# print(s.index("o"))
+# print(s.index("lo w"))
+
+
+# s = "      dishita mundra         "
+
+# print(s)
+
+# print(s.strip())
+
+
+# s = "--------dishita mundra---------"
+
+# print(s)
+# print(s.strip("-"))
+
+
+
+# s = "hello my name is dishita"
+
+# print(list(s))
+
+# print(s.split())
+# print(s.split("a"))
+
+
+
+# l1 = ['d' , 'i' , 's' , 'h' , 'i']
+
+# s="".join(l1)
+# s1="*".join(l1)
+# print(s)
+# print(s1)
+
+
+# l1 = ['hello', 'my', 'name', 'is', 'dishita']
+
+# print(" ".join(l1))
+
+
+# s = "hello\ndishita"
+# print(s)
+
+# s = "hello\tdishita"
+# print(s)
+
+# print(ord("#"))
