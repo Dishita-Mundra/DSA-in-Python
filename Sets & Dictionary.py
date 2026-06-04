@@ -141,10 +141,27 @@
 # print(d1.get(1))
 
 
-d1 = {1:"dishita" , 2:"swati" , 3:"ananya" , 4:"anu"}
-d2 = d1.copy()
+# d1 = {1:"dishita" , 2:"swati" , 3:"ananya" , 4:"anu"}
+# d2 = d1.copy()
 
-d2[10] = "hello"
+# d2[10] = "hello"
 
-print(d1)
-print(d2)
+# print(d1)
+# print(d2)
+
+# d1.clear()
+
+
+# d1 = {1:"dishita" , 2:"swati" , 3:"ananya" , 4:"anu"}
+
+# print(d1.items())
+# for key,value in d1.items():
+#     print(key,value)
+
+# print(d1.keys())
+# for key in d1.keys():
+#     print(key)
+
+# print(d1.values())
+# for value in d1.values():
+#     print(value)
