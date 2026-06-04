@@ -124,5 +124,27 @@
 
 # print(d1)
 
-d1=dict(dishita=1 , swati=2)
+# d1=dict(dishita=1 , swati=2)
+# print(d1)
+
+# d1 = {1:"dishita" , 2:"swati" , 3:"ananya" , 4:"anu"}
+
+# d1.pop(2)
+# del d1[1]
+
+# print(d1)
+
+
+# d1 = {1:"dishita" , 2:"swati" , 3:"ananya" , 4:"anu"}
+
+# print(d1[2])
+# print(d1.get(1))
+
+
+d1 = {1:"dishita" , 2:"swati" , 3:"ananya" , 4:"anu"}
+d2 = d1.copy()
+
+d2[10] = "hello"
+
 print(d1)
+print(d2)
