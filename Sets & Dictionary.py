@@ -165,3 +165,30 @@
 # print(d1.values())
 # for value in d1.values():
 #     print(value)
+
+
+
+# l1 = ["dishita","swati","dishita","ananya","swati","anu","dishita","ananya"]
+
+# freq = {}
+
+# for name in l1:
+#     if name not in freq:
+#         freq[name] = 1
+#     else:
+#         freq[name] += 1
+
+# print(freq)
+
+
+# s = "physics wallah skills"
+
+# freq = {}
+
+# for name in s:
+#     if name not in freq:
+#         freq[name] = 1
+#     else:
+#         freq[name] += 1
+
+# print(freq)
