@@ -1,6 +1,6 @@
 ### SETS
 
-# set1 = {2,4,"hello",2,"dishita","hello",2,4}
+# set1 = {2 , 4 , "hello" , 2 , "dishita" , "hello" , 2 , 4}
 
 # print(set1)
 # print(type(set1))
