@@ -124,33 +124,33 @@
 
 # Quick Sort
 
-def partition(nums, l, r):
-    key = nums[r]
-    start = l
+# def partition(nums, l, r):
+#     key = nums[r]
+#     start = l
 
-    for i in range(l, r+1):
-        if nums[i] >= key:
-            temp = nums[i]
-            nums[i] = nums[start]
-            nums[start] = temp
-            start += 1
+#     for i in range(l, r+1):
+#         if nums[i] >= key:
+#             temp = nums[i]
+#             nums[i] = nums[start]
+#             nums[start] = temp
+#             start += 1
 
-    return start-1
+#     return start-1
 
-def quickSort(nums, l, r):
-    # base case
-    if l >= r:
-        return
+# def quickSort(nums, l, r):
+#     # base case
+#     if l >= r:
+#         return
     
-    p = partition(nums, l, r)
+#     p = partition(nums, l, r)
 
-    quickSort(nums, l, p-1)
-    quickSort(nums, p+1, r)
+#     quickSort(nums, l, p-1)
+#     quickSort(nums, p+1, r)
     
-def sortArray(nums):
-    n = len(nums)
-    quickSort(nums, 0, n-1)
+# def sortArray(nums):
+#     n = len(nums)
+#     quickSort(nums, 0, n-1)
 
-    return nums
+#     return nums
 
-print(sortArray([3, 2, 8, 1, 7, 6, 4]))
+# print(sortArray([3, 2, 8, 1, 7, 6, 4]))
