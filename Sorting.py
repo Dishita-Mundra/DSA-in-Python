@@ -106,7 +106,7 @@ def mergeSort(nums, l, r):
         return
     
     # recursive case
-    mid = (l + r)//2
+    mid = (l + r) // 2
     # l to mid
     mergeSort(nums, l, mid)
     mergeSort(nums, mid+1, r)
