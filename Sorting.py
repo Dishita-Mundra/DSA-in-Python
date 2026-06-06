@@ -102,7 +102,7 @@ def merge(nums, l, mid, r):
 def mergeSort(nums, l, r):
 
     # base case
-    if l>=r:
+    if l >= r:
         return
     
     # recursive case
