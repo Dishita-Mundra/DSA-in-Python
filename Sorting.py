@@ -154,3 +154,28 @@
 #     return nums
 
 # print(sortArray([3, 2, 8, 1, 7, 6, 4]))
+
+
+
+
+# Counting Sort
+
+def sortArray(nums):
+    n = len(nums)
+    mx = max(nums)
+
+    freq = [0] * (mx+1)
+
+    for i in nums:
+        freq[i] += 1
+
+    nums = []
+
+    for i in range(0, mx+1):
+        while freq[i] > 0:
+            nums.append(i)
+            freq[i] -= 1
+
+    return nums 
+
+print(sortArray([3, 2, 8, 1, 7, 6, 4]))
