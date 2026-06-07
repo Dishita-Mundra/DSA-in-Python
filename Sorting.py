@@ -153,7 +153,7 @@
 
 #     return nums
 
-# print(sortArray([3, 2, 8, 1, 7, 6, 4]))
+# print(sortArray ([3, 2, 8, 1, 7, 6, 4]))
 
 
 
