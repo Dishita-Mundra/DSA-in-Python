@@ -13,7 +13,7 @@ class Solution:
 
 # Binary Search
 
-def search(nums):
+def search(nums, target):
         n = len(nums)
 
         l = 0
