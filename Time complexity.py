@@ -1,4 +1,4 @@
-# Linear Time(O(n)) - individual also and add krke bhi
+# Linear Time (O(n)) - individual also and add krke bhi
 
 n=10
 m=100
