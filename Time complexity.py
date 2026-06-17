@@ -5,7 +5,7 @@ m=100
 x=3
 
 for i in range(n):
-    if i==x:
+    if i == x:
         break
     print(i,end=" ")
 
